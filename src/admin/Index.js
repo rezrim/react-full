@@ -95,7 +95,9 @@ export default function Index() {
             color="primary"
             className={classes.submit}
           >
-            Sign In
+            <Link to="/Admin/Dashboard" variant="body2">
+                Sign In
+              </Link>
           </Button>
           <Grid container>
             <Grid item xs>
@@ -104,7 +106,7 @@ export default function Index() {
               </Link>
             </Grid>
             <Grid item>
-              <Link to="/Dashboard" variant="body2">
+              <Link to="/Admin/Dashboard" variant="body2">
                 {"Don't have an account? Sign Up"}
               </Link>
             </Grid>
